@@ -1,0 +1,63 @@
+.button-text{
+    font-size: 14px;
+    font-family: 'lato',sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: var(--clr-light-green);
+    border: 2px solid var(--clr-light-green);
+}
+
+.button-text:hover{
+    color: var(--clr-dark-green);
+    background-color: #ffffff;
+}
+
+@media (max-width:800px) {
+    .button-text{
+    width: 100%;
+    }
+}
+
+
+.contact-us-heading{
+    font-weight: 400;
+    font-size: 3.2rem;
+    color: var(--clr-dark-green);
+}
+
+.form-label{
+    font-size: .875rem;
+    font-weight: 400;
+    font-family: "lato",sans-serif;
+}
+
+.icon :nth-child(0){
+    width: 42px;
+}
+
+.icon {
+    font-size: 1.5rem;
+    fill: #000000;
+    display: flex;
+    align-items: flex-start;
+    padding: .4rem 1rem 0 .2rem;
+}
+
+.text{
+    font-family: 'lato',serif;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 300;
+    padding-left: 1rem;
+    
+}
+.address{
+    padding-right: 4.4rem;
+    margin-bottom: .3rem;
+}
+
+
+.map{
+    width: 100%;
+    height: 100%;
+}

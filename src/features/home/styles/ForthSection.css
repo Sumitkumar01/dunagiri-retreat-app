@@ -1,0 +1,36 @@
+.ForthSection{
+    background-color: var(--clr-light-orange);
+    padding: 2.5rem 0;
+}
+
+
+.experience-heading{
+    font-size: 3.2rem;
+    font-weight: 400;
+    color: var(--clr-dark-green);
+}
+.experience-text{
+    font-weight: 400;
+    font-size: 1.625rem;
+}
+.name-text{
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+.slider-content{
+    /* position: relative; */
+}
+.sliderImg{
+    width: 394px;
+    height: 525px;
+    border-radius: 50rem 50rem 0 0;
+    position: relative;
+}
+.slider-content-wrap{
+    background-color: var(--clr-white);
+    padding: 2rem 1.5rem;
+    max-width: 40%;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+}
